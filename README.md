@@ -1,2 +1,1 @@
-# hsh
-HSH Consulting
+# HSH Forskning & rådgivning
