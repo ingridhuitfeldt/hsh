@@ -130,6 +130,10 @@ ul li { margin-bottom: 0.25em; }
   max-width: 640px;
   margin: 0 auto 1em;
 }
+.hero-stance {
+  font-style: italic;
+  color: var(--navy-soft);
+}
 
 /* Buttons */
 .btn {
