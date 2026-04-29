@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HSH Forskning &amp; rådgivning — Akademisk dybde. Praktisk verdi.</title>
+<meta name="description" content="HSH er tre aktive forskere ved UiO og BI som tilbyr forskningsbasert rådgivning, dataanalyser, kurs og foredrag innen økonomi, statistikk og helse.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="HSH Forskning og rådgivning">
+      <span class="brand-mark">HSH</span>
+      <span class="brand-sub">FORSKNING &amp; RÅDGIVNING</span>
+    </a>
+    <nav class="site-nav" aria-label="Hovedmeny">
+      <a href="index.html#tjenester">Tjenester</a>
+      <a href="om-oss.html">Om oss</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <img src="hsh-logo.svg" alt="HSH Forskning og rådgivning — Hjort, Stoltenberg, Huitfeldt" class="hero-logo">
+      <h1>Akademisk dybde. Praktisk verdi.</h1>
+      <p class="hero-lede">
+        HSH er tre aktive forskere ved Universitetet i Oslo og Handelshøyskolen BI, med doktorgrad og publikasjoner i ledende internasjonale tidsskrifter. Vi tilbyr forskningsbasert rådgivning, dataanalyser, kurs og foredrag innen økonomi, statistikk og helse.
+      </p>
+      <p class="hero-lede hero-stance">
+        Vi er forskere, ikke konsulenter. Det betyr at vår faglige integritet er det vi tilbyr — vi kan hjelpe med metode, analyse og rådgivning, men vi leverer ikke konklusjoner på bestilling.
+      </p>
+    </div>
+  </section>
+
+  <section id="tjenester" class="section">
+    <div class="container">
+      <h2>Tjenester</h2>
+      <div class="tile-grid">
+
+        <a class="tile" href="foredrag.html">
+          <h3>Foredrag</h3>
+          <p>Faglig solide og engasjerende foredrag tilpasset din målgruppe — fra styrer og ledergrupper til konferanser.</p>
+          <span class="tile-cta">Les mer →</span>
+        </a>
+
+        <a class="tile" href="kurs.html">
+          <h3>Kurs og undervisning</h3>
+          <p>Skreddersydde kurs for din organisasjon, med mange års erfaring fra UiO og BI.</p>
+          <span class="tile-cta">Les mer →</span>
+        </a>
+
+        <a class="tile" href="dataanalyser.html">
+          <h3>Dataanalyser</h3>
+          <p>Grundige analyser av deres data — fra deskriptiv statistikk til kausal inferens og maskinlæring.</p>
+          <span class="tile-cta">Les mer →</span>
+        </a>
+
+        <a class="tile" href="forskningsgjennomganger.html">
+          <h3>Forskningsgjennomganger</h3>
+          <p>Systematiske oppsummeringer av forskningsfronten på et tema, oversatt til anvendelig innsikt.</p>
+          <span class="tile-cta">Les mer →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> HSH Forskning &amp; rådgivning — Hjort · Stoltenberg · Huitfeldt</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
